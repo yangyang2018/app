@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+﻿apply plugin: 'com.android.application'
 
 android {
     dexOptions {
@@ -10,23 +10,23 @@ android {
     }
     signingConfigs {
         debug {
-            keyAlias 'youcai123'
-            keyPassword 'youcai123'
+            keyAlias 'youcai123123'
+            keyPassword 'youcai123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123'
+            storePassword 'youcai123123'
         }
         ceshi {
-            keyAlias 'youcai123'
-            keyPassword 'youcai123'
+            keyAlias 'youcai123123'
+            keyPassword 'youcai123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123'
+            storePassword 'youcai123123'
         }
 
         release {
-            keyAlias 'youcai123'
-            keyPassword 'youcai123'
+            keyAlias 'youcai123123'
+            keyPassword 'youcai123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123'
+            storePassword 'youcai123123'
         }
     }
 
