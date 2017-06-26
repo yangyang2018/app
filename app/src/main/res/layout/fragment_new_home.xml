@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@drawable/seller_home_hand">
+<com.example.b2c.widget.RoundImageView
+    android:id="@+id/seller_home_yuan"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/kuaidi"
+    ></com.example.b2c.widget.RoundImageView>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.7"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:id="@+id/rl_order_today"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="157"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/l1"
+            android:textSize="18sp"
+            />
+        <View
+            android:id="@+id/l1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_centerInParent="true"></View>
+        <TextView
+            android:id="@+id/order_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/l1"
+            android:textColor="@color/etitText"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/divider_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></View>
+    <RelativeLayout
+        android:id="@+id/rl_orders_turnover"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_turnover_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/l2"
+            android:textSize="18sp"
+            />
+        <View
+            android:id="@+id/l2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_centerInParent="true"></View>
+        <TextView
+            android:id="@+id/tv_turnover_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/l2"
+            android:textColor="@color/etitText"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@color/background"
+    ></View>
+<GridView
+    android:id="@+id/seller_gv_leibie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="3"
+    android:horizontalSpacing="1dp"
+    android:verticalSpacing="1dp"
+    android:background="#f2f2f2"
+    android:gravity="center"
+    ></GridView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:background="@color/background"
+        ></RelativeLayout>
+</LinearLayout>

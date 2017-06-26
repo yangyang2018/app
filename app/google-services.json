@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1034567044562",
+    "project_id": "firebase-sky-platform"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034567044562:android:ddbe0b65688c99e1",
+        "android_client_info": {
+          "package_name": "com.example.b2c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034567044562-2u3vasdggr34223e9tae3pjmalb4a6qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.b2c",
+            "certificate_hash": "066c2671834d36cc136dd63ef3dcc4b8af1259a7"
+          }
+        },
+        {
+          "client_id": "1034567044562-2fn5rfbapc6ceupigtjvudlsqm81r6qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8bf6KCUuSP-dT5JU-yg7NApoBHpAvwqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
