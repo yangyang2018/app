@@ -10,23 +10,23 @@ android {
     }
     signingConfigs {
         debug {
-            keyAlias 'youcai123123'
-            keyPassword 'youcai123123'
+            keyAlias 'yy123123'
+            keyPassword 'yy123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123123'
+            storePassword 'yy123123'
         }
         ceshi {
-            keyAlias 'youcai123123'
-            keyPassword 'youcai123123'
+            keyAlias 'yy123123'
+            keyPassword 'yy123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123123'
+            storePassword 'yy123123'
         }
 
         release {
-            keyAlias 'youcai123123'
-            keyPassword 'youcai123123'
+            keyAlias 'yy123123'
+            keyPassword 'yy123123'
             storeFile file('b2c.jks')
-            storePassword 'youcai123123'
+            storePassword 'yy123123'
         }
     }
 
